@@ -6,9 +6,9 @@ public class Main{
 
         Coche miCoche = new Coche();
 
-        miCoche.addPuertas();
+        miCoche.puertas();
 
-        //System.out.println(miCoche.addPuertas);
+        System.out.println("Cantidad de puertas "+miCoche.puertas);
 
 
     }
@@ -23,9 +23,9 @@ public class Main{
 }
 
 class Coche{
-    int puertas=4;
+    int puertas = 3;
 
-    public void addPuertas(){
+    public void puertas(){
 
         puertas++;
     }
