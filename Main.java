@@ -22,9 +22,6 @@ public class Main{
     }
 }
 
-
-
-
 class Coche{
     int puertas=4;
 
